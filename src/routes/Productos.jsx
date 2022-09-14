@@ -1,8 +1,12 @@
 import React from 'react'
+import NavBar from '../Components/NavBar'
 
 const Productos = () => {
   return (
-    <div>Productos</div>
+    <>
+    <NavBar/>
+        <h1>Bienvenido a los productos de Pygmalion</h1>
+    </>
   )
 }
 
